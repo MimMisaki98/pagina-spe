@@ -1,0 +1,62 @@
+.sidebar ul li:hover {
+    margin: 0%;
+    padding: 0%;
+    background: royalblue;
+    cursor: pointer;
+    }
+    .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    }
+    .sidebar:hover a:hover
+    {font-size: 40px;
+    padding: 40px 0px;/*40 0 40 0*/}
+    .sidebar{
+        height:130%;
+        width: 342px;
+        background:dodgerblue;
+        float: left;
+        position: absolute;}
+    
+    /*formulario*/
+   .form_register{
+box-sizing: border-box;
+width: 400px;
+background: #dcdcdc;
+margin:auto;
+margin-top: 50px;
+padding: 30px;
+border-radius: 4px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:dodgerblue;
+box-shadow:7px 13px 37px royalblue;
+   }
+   .controls{
+       width: 93%;
+       background: #dcdcdc;
+       padding: 12px;
+       margin-bottom: 16px;
+       border-radius: 4px;
+       border:1px solid royalblue; 
+       font-family: 'Gill Sans', 'Gill Sans MT', 'Calibrí', 'Trebuchet MS', sans-serif;
+       font-size: 16px;
+   }
+   .boton2{
+        border: 3px solid rgba(100,100.100,0.1);
+        margin-bottom: 10px;
+        padding: 15px;
+        width: 100%;
+        font-family:'poppins', sans-serif;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: #fff;
+        background-size: 300%;
+        background-image: linear-gradient(to left, #00B7DA,#161569,#00B7DA);
+    }
+    .boton2:hover{
+        background-position: right;  
+    }
+   

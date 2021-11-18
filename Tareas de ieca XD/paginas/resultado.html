@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="icon" type="image/png" href="images spe/logo_spe.png">
+</head>
+<body>
+        <p>Hola <span id="nombre"></span>, tus datos ingresados fueron: <span id="correo" id= "telefono" id= "comentarios"></span></p>  
+        <script>
+          var direccion = window.location.href;
+          var url = new URL(direccion);  
+    var correo = url.searchParams.get("correo");
+    var telefono = url.searchParams.get("telefono");
+    var nombre = url.searchParams.get("name");
+    var comentarios = url.searchParams.get("comentarios");
+    var nombre_texto = document.getElementById("nombre");
+    nombre_texto.innerHTML = nombre;
+    var telefono_number = document.getElementById("telefono");
+    telefono_number.innerHTML = telefono;
+    var correo_email = document.getElementById("correo");
+    correo_email.innerHTML = correo;
+    var comentarios_texto = document.getElementById("comentarios")
+    comentarios_texto.innerHTML = comentarios;
+      </script>   
+</body>
+</html>

@@ -1,0 +1,54 @@
+h1{color: royalblue; font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;}
+h2{color:dodgerblue; font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif ;}
+p{color:dimgray; font-family: 'Times New Roman', Times, serif;}
+cite{color: dimgray; font-family: 'Times New Roman', Times, serif;}
+.footer{ background-color: dimgray;
+}
+.boton{
+    border: 3px solid rgba(100,100.100,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 360px;
+    font-family:'poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 300%;
+    background-image: linear-gradient(to left, #00B7DA,#161569,#00B7DA);
+}
+.boton:hover{
+    background-position: right;  
+}
+.row{ display: flex; flex-wrap: wrap;}
+ul{list-style: none;}
+.footer-col{ width: 24%; padding: 0 5px;}
+.footer-col ul li :not(last-child){ margin-bottom: 5px;}
+.footer-col ul li a{ font-size: 16px; 
+text-transform: capitalize;
+color:white;
+text-decoration: none;
+font-weight: 300;
+color:white;
+display: block;}
+header{ height: 150px;
+background-image:url("images spe/spe company.png");
+background-repeat: no-repeat;}
+nav{ background-color: white; height: 60px; border-bottom: 3px solid dodgerblue;
+}
+
+#content {
+    text-align: center;
+    width: 900px;
+float: right;
+background: white;
+}
+nav h4{ color: royalblue;
+    text-align: justify;
+} 
+footer{ clear: both;
+}
+nav img{ float: left;
+margin-right: 10px;
+margin-top: 25px;}
+
